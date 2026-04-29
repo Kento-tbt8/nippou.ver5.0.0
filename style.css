@@ -82,9 +82,9 @@ select {
 
 /* 自動入力項目の背景色 */
 .readonly-field { 
-    background-color: #f8f9fa !important; 
+    /* background-color: #f8f9fa !important;  */
     color: #666; 
-    border-color: #eee; 
+    /* border-color: #eee;  */
 }
 
 /* 横並びレイアウト */
@@ -154,4 +154,14 @@ hr {
 
 #submitBtn { 
     background: #28a745; 
+}
+
+/* 初期状態（valueが空）のセレクトボックスの色を薄くする */
+.loc-unit {
+    color: #888; /* プレースホルダーの色 */
+}
+
+/* 値が選択されたら黒くする（JSで制御） */
+.loc-unit.selected {
+    color: #000;
 }

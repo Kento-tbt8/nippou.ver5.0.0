@@ -1,4 +1,4 @@
-const gasUrl = 'https://script.google.com/macros/s/AKfycbyECxVDlPXJT5Sth3f5h5p5NlRhv3Js4yuAX_XMYWLEZFV6lDLZU4QAyMZgk7_dHDA/exec';
+const gasUrl = 'https://script.google.com/macros/s/AKfycbzK_H2Ck00AJnXwjk-Xp1KQj-W4wXxoEuvIoiw8MJGtkEzyimqSSMkbZM6bV09FIzrb/exec';
 
 let globalMaterialList = [];
 let siteMasterData = [];

@@ -1,4 +1,4 @@
-const gasUrl = 'https://script.google.com/macros/s/AKfycbwtRzoLqwWg1yAl-sUNBlkhYeHMmub2i2L6UxE1nQK8PJLQtEIl8_EfKdXoMsrgl6Wb/exec';
+const gasUrl = 'https://script.google.com/macros/s/AKfycbyECxVDlPXJT5Sth3f5h5p5NlRhv3Js4yuAX_XMYWLEZFV6lDLZU4QAyMZgk7_dHDA/exec';
 
 let globalMaterialList = [];
 let siteMasterData = [];
@@ -94,7 +94,7 @@ function addExtraRow() {
     const div = document.createElement('div');
     div.className = 'dynamic-row';
     div.innerHTML = `
-        <input type="text" class="extra-item flex-grow" placeholder="項目名（例：駐車場代）">
+        <input type="text" class="extra-item flex-grow" placeholder="材料名">
         <input type="text" style="width: 80px;" class="extra-qty" placeholder="数量">
         <button type="button" class="remove-btn">×</button>
     `;
